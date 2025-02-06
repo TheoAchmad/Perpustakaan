@@ -218,10 +218,17 @@ text-align: start;
 
 /*css ngerambati.html*/
 
-.tuhan {
-    color: aqua;
+.kembang {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
 }
-
+.panah img{
+    margin-top: 25px;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
 
 /*css wilis.html*/
 
