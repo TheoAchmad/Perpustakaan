@@ -231,3 +231,23 @@ text-align: start;
 
 
 /*css kembanggalengan.html*/
+.kembang  .panah-kembang {
+    margin-top: 25px;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    
+}
+.kembang1  .foto-kembang{
+    margin-top: 25px;
+    margin-left: 190px;
+    width: 500px;
+    height: 700px;
+}
+.judul-kembang{
+    margin-left: 50%;
+    margin-top: -40%;
+    font-size: x-large;
+    word-wrap: break-word;
+    word-break: break-word;
+}
