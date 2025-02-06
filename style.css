@@ -269,10 +269,12 @@ text-align: start;
 }
 
 /*css wilis.html*/
-.kembang {
+.wilis {
     justify-content: center;
     display: flex;
     margin-bottom: 50px;
+
+    
 }
 .panah img{
     margin-top: 25px;
@@ -280,7 +282,16 @@ text-align: start;
     width: 100px;
     height: 100px;
 }
-
+.judul-wilis{
+    text-align: center;
+    color: #4C585B;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    
+}
+.deskrip-wilis{
+    text-align: center;
+    color: #00388C;
+}
 
 /*css kembanggalengan.html*/
 .kembang {
