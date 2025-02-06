@@ -256,16 +256,23 @@ text-align: start;
 
 /*css ngerambati.html*/
 
-.kembang {
-    justify-content: center;
-    display: flex;
-    margin-bottom: 50px;
-}
-.panah img{
+.panah1 img{
     margin-top: 25px;
     margin: 20px;
     width: 100px;
     height: 100px;
+}
+
+.ngerambah{
+    justify-content: center;
+    display: flex;
+    margin-left: 25%;
+}
+
+.ngerambah img{
+    width: 60%;
+    height: auto;
+    
 }
 
 /*css wilis.html*/
