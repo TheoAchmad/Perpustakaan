@@ -210,10 +210,13 @@ text-align: start;
     color: #00388C;
 }
 
-/*masih salah
-.Foto1 {
-    justify-content: end;
+
+.Foto1 img {
     position: absolute;
+    margin-left: 75%;
+    height: 50%;
+    width: -10%;
+    border-radius: 2%;
 }
 
 /*css ngerambati.html*/
