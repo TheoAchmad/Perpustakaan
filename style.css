@@ -225,6 +225,28 @@ text-align: start;
 
 /*css wilis.html*/
 
+.arrow .panah1{
+    width:100px ;
+    height: 100px;
+    margin-top: 25px;
+    margin:20px;
+}
+.wilis .buku1{
+    width: 500px;
+    height: 700px;
+    margin-top: 25px;
+    margin-left:100px;
+    
+    
+}
 
+.wilis2{
+    margin-left:800px;
+    margin-top: -750px;
+    font-size: x-large;
+    word-wrap: break-word;
+    word-break: break-word;
+    color: gray;
 
+}
 /*css kembanggalengan.html*/
