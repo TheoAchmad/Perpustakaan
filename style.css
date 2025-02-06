@@ -210,43 +210,93 @@ text-align: start;
     color: #00388C;
 }
 
-/*masih salah
-.Foto1 {
-    justify-content: end;
+/* .wrap {
+    position: relative;
+} */
+
+/* .Foto1,
+.Foto2,
+.Foto3 {
     position: absolute;
+} */
+.Foto1{
+    margin-left: 50px;
+}
+
+
+.Foto1 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+.Foto2 {
+    display: flex;
+    margin-right: 50px;
+    justify-content: end;
+}
+
+.Foto2 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    /* justify-content: end; */
+}
+
+.Foto3{
+    margin-left: 50px;
+}
+
+.Foto3 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
 }
 
 /*css ngerambati.html*/
 
-.tuhan {
-    color: aqua;
+.kembang {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
 }
-
+.panah img{
+    margin-top: 25px;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
 
 /*css wilis.html*/
-
-.arrow .panah1{
-    width:100px ;
+.kembang {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+}
+.panah img{
+    margin-top: 25px;
+    margin: 20px;
+    width: 100px;
     height: 100px;
-    margin-top: 25px;
-    margin:20px;
-}
-.wilis .buku1{
-    width: 500px;
-    height: 700px;
-    margin-top: 25px;
-    margin-left:100px;
-    
-    
 }
 
-.wilis2{
-    margin-left:800px;
-    margin-top: -750px;
-    font-size: x-large;
-    word-wrap: break-word;
-    word-break: break-word;
-    color: gray;
 
-}
 /*css kembanggalengan.html*/
+.kembang {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.panah img {
+    margin-top: 25px;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.isikembang {
+    text-align: center;
+    
+}
+
