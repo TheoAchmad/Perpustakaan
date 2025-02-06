@@ -210,13 +210,47 @@ text-align: start;
     color: #00388C;
 }
 
+/* .wrap {
+    position: relative;
+} */
+
+/* .Foto1,
+.Foto2,
+.Foto3 {
+    position: absolute;
+} */
+.Foto1{
+    margin-left: 50px;
+}
+
 
 .Foto1 img {
-    position: absolute;
-    margin-left: 75%;
-    height: 50%;
-    width: -10%;
-    border-radius: 2%;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+.Foto2 {
+    display: flex;
+    margin-right: 50px;
+    justify-content: end;
+}
+
+.Foto2 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    /* justify-content: end; */
+}
+
+.Foto3{
+    margin-left: 50px;
+}
+
+.Foto3 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
 }
 
 /*css ngerambati.html*/
