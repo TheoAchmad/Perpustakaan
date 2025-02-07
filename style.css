@@ -272,7 +272,13 @@ text-align: start;
 .ngerambah img{
     width: 60%;
     height: auto;
+    border-radius: 10px;
     
+}
+
+.isiNgerambahAti {
+    margin: 20px;
+    font
 }
 
 /*css wilis.html*/
