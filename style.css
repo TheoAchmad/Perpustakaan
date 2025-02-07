@@ -254,74 +254,28 @@ text-align: start;
     border-radius: 10%;
 }
 
-/*css ngerambati.html*/
+/*css BUKU*/
 
-.panah1 img{
-    margin-top: 25px;
-    margin: 20px;
-    width: 100px;
-    height: 100px;
-}
-
-.ngerambah{
-    justify-content: center;
-    display: flex;
-    margin-left: 25%;
-}
-
-.ngerambah img{
-    width: 60%;
-    height: auto;
-    border-radius: 10px;
-    
-}
-
-.isiNgerambahAti {
-    margin: 20px;
-    font
-}
-
-/*css wilis.html*/
-.wilis {
-    justify-content: center;
-    display: flex;
-    margin-bottom: 50px;
-
-    
-}
 .panah img{
     margin-top: 25px;
     margin: 20px;
     width: 100px;
     height: 100px;
 }
-.judul-wilis{
-    text-align: center;
-    color: #4C585B;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-    
-}
-.deskrip-wilis{
-    text-align: center;
-    color: #00388C;
-}
 
-/*css kembanggalengan.html*/
-.kembang {
+.info-buku{
     justify-content: center;
     display: flex;
-    margin-bottom: 50px;
+    margin-left: 25%;
 }
 
-.panah img {
-    margin-top: 25px;
-    margin: 20px;
-    width: 100px;
-    height: 100px;
-}
-
-.isikembang {
-    text-align: center;
+.info-buku img{
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
     
 }
 
+.isibuku {
+    margin: 20px;
+}
