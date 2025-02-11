@@ -211,6 +211,11 @@ text-align: start;
     color: #00388C;
 }
 
+.fasilitas2 {
+    text-align: end;
+    margin-right: 50px;
+}
+
 /* .wrap {
     position: relative;
 } */
@@ -222,6 +227,7 @@ text-align: start;
 } */
 .Foto1{
     margin-left: 50px;
+    
 }
 
 
@@ -273,6 +279,7 @@ text-align: start;
     width: 60%;
     height: auto;
     border-radius: 10px;
+    margin-bottom: 50px;
     
 }
 
@@ -281,5 +288,5 @@ text-align: start;
 }
 
 .info-buku h1 {
-    
+    margin: 50px;
 }
