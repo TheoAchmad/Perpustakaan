@@ -281,5 +281,9 @@ text-align: start;
 }
 
 .isibuku {
+    margin: 20px;
+}
+
+.info-buku h1 {
     margin: 50px;
 }
