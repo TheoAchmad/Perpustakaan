@@ -211,9 +211,11 @@ text-align: start;
     color: #00388C;
 }
 
-.lala {
-    justify-content: end;
+.fasilitas2 {
+    text-align: end;
+    margin-right: 50px;
 }
+
 /* .wrap {
     position: relative;
 } */
@@ -225,6 +227,7 @@ text-align: start;
 } */
 .Foto1{
     margin-left: 50px;
+    
 }
 
 
