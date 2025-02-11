@@ -211,6 +211,9 @@ text-align: start;
     color: #00388C;
 }
 
+.lala {
+    justify-content: end;
+}
 /* .wrap {
     position: relative;
 } */
