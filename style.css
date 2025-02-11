@@ -269,17 +269,19 @@ text-align: start;
 .info-buku{
     justify-content: center;
     display: flex;
-    margin-left: 25%;
 }
 
 .info-buku img{
-    width: 60%;
+    width: 30vw;
     height: auto;
     border-radius: 10px;
     margin-bottom: 50px;
     
 }
+.judulbook{
+text-align: center;
 
+}
 .isibuku {
     margin: 20px;
 }
