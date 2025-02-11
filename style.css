@@ -213,18 +213,23 @@ text-align: start;
     margin-right: 50px;
 }
 
-/* .wrap {
-    position: relative;
-} */
+.fasilitas3 span {
+    color: red;
+}
 
-/* .Foto1,
-.Foto2,
-.Foto3 {
-    position: absolute;
-} */
+.fasilitas3 {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.PerpusFuture {
+    text-align: start;
+    margin-top: -50px;
+    margin-left: 100px;
+}
+
 .Foto1{
     margin-left: 50px;
-    
 }
 
 
@@ -255,6 +260,10 @@ text-align: start;
     width: 300px;
     height: 300px;
     border-radius: 10%;
+}
+
+.SMK1 {
+    margin-left: 90px;
 }
 
 /*css BUKU*/
