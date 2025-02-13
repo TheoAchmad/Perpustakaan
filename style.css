@@ -5,7 +5,7 @@ body{
 }
 
 
-nav {
+/* nav {
     background-color: #003079;
 }
 
@@ -41,7 +41,7 @@ nav {
 .navling a:hover {
     background-color: white;
     color: black;
-}
+} */
 
 .logo .foto-logo {
     height: 4vh;
@@ -150,11 +150,11 @@ i {
   max-width: 90%; /* Menyesuaikan lebar layar */
   scroll-behavior: smooth; /* Agar scroll terasa lebih halus */
 }
-.card {
+.kartu {
     background-color: #F6F5F2;
     border-radius: 50px;
     box-shadow: 0 5px 10px black;
-    width: 200px;
+    width: 250px;
     height: 400px;
     padding: 20px;
     text-align: center;
@@ -163,11 +163,11 @@ i {
     transition: 0.5s;
 }
 
-.card:hover {
+.kartu:hover {
     box-shadow: 0 5px 30px black;
 }
 
-.card img {
+.kartu img {
     width: 200px;
     height: 250px;
     min-width: 200px;
@@ -178,7 +178,7 @@ i {
     margin-top: 20px;
 }
 
-.card h3 {
+.kartu h3 {
     font-size: 16px;
     margin: 10px 0 0;
     color: black;
