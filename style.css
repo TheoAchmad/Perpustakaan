@@ -203,10 +203,7 @@ i {
 text-align: start;
     margin-left: 50px;
     font-size: 1.5vw;
-    margin-bottom: 4vh;
-    color: #000000;
 }
-
 .Fasilitas span {
     color: #00388C;
 }
@@ -216,18 +213,23 @@ text-align: start;
     margin-right: 50px;
 }
 
-/* .wrap {
-    position: relative;
-} */
+.fasilitas3 span {
+    color: red;
+}
 
-/* .Foto1,
-.Foto2,
-.Foto3 {
-    position: absolute;
-} */
+.fasilitas3 {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.PerpusFuture {
+    text-align: start;
+    margin-top: -50px;
+    margin-left: 100px;
+}
+
 .Foto1{
     margin-left: 50px;
-    
 }
 
 
@@ -260,6 +262,10 @@ text-align: start;
     border-radius: 10%;
 }
 
+.SMK1 {
+    margin-left: 90px;
+}
+
 /*css BUKU*/
 
 .panah img{
@@ -272,17 +278,19 @@ text-align: start;
 .info-buku{
     justify-content: center;
     display: flex;
-    margin-left: 25%;
 }
 
 .info-buku img{
-    width: 60%;
+    width: 30vw;
     height: auto;
     border-radius: 10px;
     margin-bottom: 50px;
     
 }
+.judulbook{
+text-align: center;
 
+}
 .isibuku {
-    margin: 50px;
+    margin: 20px;
 }
