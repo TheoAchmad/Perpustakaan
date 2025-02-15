@@ -6,23 +6,42 @@
     <title>Wiyata Utama</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <nav class="navbar">
-    
-    <ul class="navling">
-        <a class="logoo" href="#">
-            <div class="logo"><img class="foto-logo" src="foto/logo_perpus-removebg-preview.png" alt="logo perpus"></div>
-        </a>
-        <li><a href="#">Beranda</a></li>
-        <li><a href="profil.html">Profil</a></li>
-    </ul>
-    <div class="search">
-    <input type="text" id="searchInput" placeholder="   Cari barang...">
-    </div>
-    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="padding : 0;">
+        <div class="container-fluid" style="background-color: navy; padding : 0.5em; padding-left : 0.7em;">
+          <a class="navbar-brand" href=""><img src="foto/logo_perpus-removebg-preview.png" alt="" style="height: 3vh; background-color: white; border-radius: 50%; margin-left: 10px;"></a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html" style="color: white; margin-left: 20px;">Beranda</a>
+              </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="profil.html" style="color: white; margin-left: 10px;">Profil</a>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white; margin-right: 20px;">
+                      +
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        </div>
+      </nav>
 
     <div class="panah">
         <a href="index.html"><img src="foto/back-button.png"></a>
@@ -38,3 +57,41 @@
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit aliquid iste, odio ducimus optio fugiat suscipit doloribus adipisci excepturi earum nihil alias, quidem placeat incidunt natus atque corrupti quaerat nemo! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, quam magnam blanditiis doloremque error mollitia alias consequuntur id tempora? Officiis, amet excepturi? Error natus hic, excepturi repellendus saepe dolorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam placeat eaque sit, odio quas magnam cumque dolorum aspernatur. Ex commodi quo perspiciatis totam adipisci quisquam quae? Officiis rem nemo autem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quam commodi ab cupiditate corporis esse vero, temporibus dignissimos incidunt quod praesentium perspiciatis ullam qui! Blanditiis perferendis quisquam soluta ab dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sapiente amet odit modi nam rerum nostrum, qui natus? Nam, voluptas deserunt. Nam alias quia aut illum obcaecati sapiente error aspernatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab illo dolores sapiente nisi rerum eaque in, eligendi excepturi quas neque maiores facilis, unde laudantium exercitationem iusto ullam. Consectetur, beatae incidunt?
         </p>
        </div>
+
+       <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Kolom Kiri (Informasi Perpustakaan) -->
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center mb-2">
+                        <img src="foto/LogoSmk.jpg" alt="Logo" width="50" class="me-2" style="border-radius: 50%;"> 
+                        <div>
+                            <h5 class="fw-bold m-0">Perpustakaan Wiyata Utama</h5>
+                            <p class="m-0">SMKN 1 BANYUWANGI</p>
+                        </div>
+                    </div>
+                    <p><i class="bi bi-geo-alt"></i> Jalan Wijaya Kusuma No. 46 Mojopanggung Banyuwangi</p>
+                    <p><i class="bi bi-telephone"></i> (0333) - 424541</p>
+                    <p><i class="bi bi-envelope"></i> smkn1_wk46@yahoo.co.id</p>
+                    
+                    <!-- Social Media -->
+                    <div class="social-icons">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+      
+                <!-- Kolom Kanan (Menu) -->
+                <div class="col-md-6">
+                    <h5 class="fw-bold">Selengkapnya</h5>
+                    <p><a href="#">> Beranda</a></p>
+                    <p><a href="#">> Profil</a></p>
+                </div>
+            </div>
+        </div>
+      </footer>
+
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
