@@ -308,11 +308,18 @@ text-align: start;
 .judulbook{
 text-align: center;
 color: #4C585B;
-
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+word-spacing: 2px;
+font-weight: bold;
+position: relative;
+top: -30px;
 
 }
 .isibuku {
     margin: 20px;
+    line-height: 1.8;
+    text-align: justify;
+    color: #00388C;
 }
 
 .laris {
