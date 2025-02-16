@@ -261,6 +261,7 @@ text-align: start;
 .Foto2 img {
     width: 300px;
     margin-top: 50px;
+    margin-bottom: 50px;
     height: 300px;
     border-radius: 10%;
     display: flex;
@@ -284,6 +285,9 @@ text-align: start;
     width: 85%;
 }
 
+.Perpustakaan1 {
+    color: #00388C
+}
 .SMK1 {
     margin-left: 90px;
 }
