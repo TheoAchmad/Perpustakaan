@@ -257,33 +257,40 @@ text-align: start;
     border-radius: 10%;
 }
 
-.Foto2 {
-    display: flex;
-    margin-right: 50px;
-    justify-content: end;
-}
 
 .Foto2 img {
     width: 300px;
+    margin-top: 50px;
     height: 300px;
     border-radius: 10%;
+    display: flex;
+    gap: 10px;
     /* justify-content: end; */
 }
-
-.Foto3{
-    margin-left: 50px;
+.container-perpus{
+    /* background-color: red; */
+    display: flex;
+    gap: 15px;
+    padding: 0 30px;
+    justify-content: center;
+    width: 100%;
 }
-
-.Foto3 img{
-    width: 300px;
-    height: 300px;
-    border-radius: 10%;
+.text {
+    /* background-color: blue; */
+    /* text-align: start; */
+    margin: auto 0 auto 15px;
+}
+.text p {
+    width: 85%;
 }
 
 .SMK1 {
     margin-left: 90px;
 }
 
+.Pengertian2 {
+    font-size: 1.5vw;
+}
 /*css BUKU*/
 
 .panah img{
@@ -354,4 +361,3 @@ color: #4C585B;
 .sm {
     color: #000000;
 }
-
