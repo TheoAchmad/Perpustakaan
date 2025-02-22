@@ -299,6 +299,20 @@ i {
     height: 50px;
 }
 
+.panah-kanan img{
+    width: 100px;
+    height: auto;
+    margin: 130px;
+}
+
+.panah-kanan span{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    margin-top: -50px;
+}
+
 .info-buku{
     justify-content: center;
     display: flex;
