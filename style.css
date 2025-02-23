@@ -93,6 +93,7 @@ i {
     position: relative;
     text-align: center;
     color: white;
+    margin-bottom: 50px;
 }
 
 .beranda img {
@@ -148,7 +149,6 @@ i {
 .judul2 {
     margin-left: 50px;
     font-size: 1.5vw;
-    margin-bottom: 100px;
 }
 
 .wadah-buku {
@@ -212,7 +212,6 @@ i {
     text-align: start;
     margin-left: 50px;
     font-size: 1.5vw;
-    margin-bottom: 100px;
 }
 
 /* css profil.html*/
