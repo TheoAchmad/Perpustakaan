@@ -373,3 +373,10 @@ font-family: "Poppins", serif;
 .sm {
     color: #000000;
 }
+
+.lemari-buku {
+    display: flex;
+  gap: 40px; /* Jarak antar card */
+  padding: 20px;
+  max-width: 90%; /* Menyesuaikan lebar layar */
+}
