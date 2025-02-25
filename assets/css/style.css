@@ -172,8 +172,8 @@ i {
     background-color: #F6F5F2;
     border-radius: 50px;
     box-shadow: 0 5px 10px black;
-    width: 250px;
-    height: 400px;
+    width: 200px;
+    height: 320px;
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -186,12 +186,12 @@ i {
 }
 
 .kartu img {
-    width: 200px;
-    height: 250px;
-    min-width: 200px;
-    min-height: 250px;
+    width: 150px;
+    height: 200px;
+    min-width: 150px;
+    min-height: 200px;
     border-radius: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     box-shadow: 0px 10px 10px black;
     margin-top: 20px;
 }
