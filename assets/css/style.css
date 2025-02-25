@@ -170,9 +170,8 @@ i {
 }
 
 @media (max-width: 576px) {
-    .buku {
+    .kartu {
         transform: scale(0.7);
-        max-width: 100%;
     }
 }
 
