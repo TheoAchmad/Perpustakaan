@@ -168,6 +168,14 @@ i {
   max-width: 90%; /* Menyesuaikan lebar layar */
   scroll-behavior: smooth; /* Agar scroll terasa lebih halus */
 }
+
+@media (max-width: 576px) {
+    .buku {
+        transform: scale(0.7);
+        max-width: 100%;
+    }
+}
+
 .kartu {
     background-color: #F6F5F2;
     border-radius: 50px;
