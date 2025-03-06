@@ -200,12 +200,12 @@ i {
     border-radius: 10px;
     margin-bottom: 30px;
     box-shadow: 0px 10px 10px black;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .kartu h3 {
     font-size: 16px;
-    margin: 10px 0 0;
+    margin: -5px 0 0;
     color: black;
     opacity: 70%;
 }
