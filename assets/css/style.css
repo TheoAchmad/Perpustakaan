@@ -328,6 +328,7 @@ i {
     margin-bottom: 50px;
     
 }
+
 .judulbook{
 text-align: center;
 color: #4C585B;
@@ -336,11 +337,26 @@ word-spacing: 2px;
 margin: 2em 0;
 font-family: "Poppins", serif;
 }
+
 .isibuku {
+    font-family: Arial, sans-serif;
     margin: 20px;
-    line-height: 1.8;
-    text-align: justify;
-    color: #00388C;
+    padding: 20px;
+}
+
+.isibuku1 {
+    background-color: #7a8aa4;
+}
+
+.isibuku table {
+    width: 100%;
+    border-collapse: collapse;
+}
+ 
+.isibuku th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
 }
 
 .laris {
